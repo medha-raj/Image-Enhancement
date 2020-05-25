@@ -1,6 +1,6 @@
 import numpy as np
 from PIL import Image
-im = Image.open("C:/Users/Navin/Desktop/Image/low2.png")  #Image location
+im = Image.open("flower.jpg")  #Image location
 fil= (-0.25,-0.5,-0.25,-0.5,4,-0.5,-0.25,-0.5,-0.25)   #Sharpening filter
 fil=np.reshape(fil,(3,3))   
 
